@@ -9,7 +9,7 @@ Developed by **[RAHUL KUMAR YADAV | DEVELOPER](https://rahulkumaryadavportfolio.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-ff5e3a?style=flat&logo=netlify)](https://rahulkumaryadavportfolio.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/deploy-status)]([https://app.netlify.com](https://saturnrahul.netlify.app/))
+[![Netlify Status](https://saturnrahul.netlify.app/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 [Live Demo](#-deployment) • [Key Features](#-core-features) • [Architecture](#-zero-server-architecture) • [Repository Structure](#-repository-structure) • [Setup](#-quick-start)
