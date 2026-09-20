@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪐 RAHUL_DEV | PDF Studio Pro</title>
+    <script src="imagetopdfsecurity.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="imagetopdf.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Image <span>to PDF</span></a>
+            
+            <div class="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/Pages/ImageCompressor/ImageCompressor.html">Compressor</a>
+                <a href="/Pages/ImageToPDF/imagetopdf.html" class="active">PDF Studio</a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-links">
+            <a href="/index.html">Home</a>
+            <a href="/Pages/ImageCompressor/ImageCompressor.html">Compressor</a>
+            <a href="/Pages/ImageToPDF/imagetopdf.html" class="active">PDF Studio</a>
+        </div>
+    </div>
+
+    <main class="main-wrapper">
+        <div class="converter-card">
+            <header class="card-header">
+                <h1>PDF Studio <span>Workspace</span></h1>
+                <p>Upload, reorder, scale layouts, and structure your custom PDF documents natively.</p>
+            </header>
+            
+            <div class="upload-area" id="pdfDropZone">
+                <div class="upload-icon">📄</div>
+                <p class="upload-text">Drop image blueprints here or <span class="browse-btn">Browse Local Files</span></p>
+                <p class="upload-hint">Supports high-res JPEG, JPG, and PNG formats</p>
+                <input type="file" id="pdfFileInput" accept="image/jpeg, image/png, image/jpg" multiple>
+            </div>
+
+            <div class="workspace" id="pdfWorkspace">
+                
+                <div class="workspace-header">
+                    <h3>💡 Organize & Scale Document Layout</h3>
+                    <p>Drag elements to rearrange page sequencing. Adjust individual sliders for custom sheet formatting.</p>
+                </div>
+
+                <div id="visualEditorGrid" class="visual-editor-grid">
+                    </div>
+
+                <div class="action-footer">
+                    <button id="compilePdfBtn" class="btn-compile">
+                        Compile & Export Premium PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-system">
+        <div class="privacy-banner">
+            <div class="shield-pulse">🛡️</div>
+            <p class="privacy-text">WE DONT TAKE YOUR INFORMATION STAY COOL</p>
+        </div>
+        <div class="signature-line">
+            <p>Engineered & Maintained by <span class="designer-brand">Dev Rahul Kumar Yadav</span></p>
+        </div>
+    </footer>
+
+    <script src="imagetopdf.js"></script>
+</body>
+</html>

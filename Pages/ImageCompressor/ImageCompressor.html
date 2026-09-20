@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪐 RAHUL_DEV | Image Compressor</title>
+    <script src="ImageCompressorSecurity.js"></script>
+    <link rel="stylesheet" href="ImageCompressor.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Image <span>Compressor</span></a>
+            
+            <div class="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/Pages/ImageCompressor/ImageCompressor.html" class="active">Compressor</a>
+                <a href="/Pages/ImageToPDF/imagetopdf.html">PDF Studio</a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-links">
+            <a href="/index.html">Home</a>
+            <a href="/Pages/ImageCompressor/ImageCompressor.html" class="active">Compressor</a>
+            <a href="/Pages/ImageToPDF/imagetopdf.html">PDF Studio</a>
+        </div>
+    </div>
+
+    <main class="main-wrapper">
+        <div class="compressor-card">
+            <header class="card-header">
+                <h1>Optimize <span>Your Image</span></h1>
+                <p>Natively scaling heavy images down to light web payloads instantly.</p>
+            </header>
+            
+            <div class="upload-area" id="dropZone">
+                <div class="upload-icon">🪐</div>
+                <p class="upload-text">Drop your payload image here or <span class="browse-btn">Browse File</span></p>
+                <p class="upload-hint">Supports JPEG, PNG, WEBP</p>
+                <input type="file" id="fileInput" accept="image/jpeg, image/png, image/webp">
+            </div>
+
+            <div class="workspace" id="workspace">
+                <div class="preview-panel">
+                    <div class="preview-box">
+                        <img id="previewImg" src="" alt="Source Visualizer">
+                    </div>
+                </div>
+
+                <div class="controls-panel">
+                    
+                    <div class="control-card">
+                        <div class="control-group">
+                            <div class="control-label">
+                                <label for="quality">Compression Quality</label>
+                                <span id="qualityVal" class="badge">75%</span>
+                            </div>
+                            <input type="range" id="quality" min="1" max="100" value="75">
+                        </div>
+                    </div>
+
+                    <div class="stats-dashboard">
+                        <div class="stat-box">
+                            <span class="stat-label">Source Size</span>
+                            <strong id="origSize" class="stat-value">0.00 MB</strong>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-label">Optimized Size</span>
+                            <strong id="compSize" class="stat-value text-success">0.00 KB</strong>
+                        </div>
+                    </div>
+
+                    <div class="saving-ribbon" id="savingRibbon">
+                        Compressor eliminated <span id="savingPercentage">0%</span> of footprint!
+                    </div>
+
+                    <a id="downloadBtn" class="btn-download" href="#" download="saturn_optimized.jpg">
+                        Download Optimized Image
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-system" id="privacy">
+        <div class="privacy-banner">
+            <div class="shield-pulse">🛡️</div>
+            <p class="privacy-text">WE DONT TAKE YOUR INFORMATION STAY COOL</p>
+        </div>
+        <div class="signature-line">
+            <p>Engineered & Maintained by <span class="designer-brand">Dev Rahul Kumar Yadav</span></p>
+        </div>
+    </footer>
+
+    <script src="ImageCompressor.js"></script>
+</body>
+</html>
