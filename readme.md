@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪐 RAHUL_DEV| Creator Studio
+# RAHUL_DEV | DEVELOPER
 
 **High-Performance, Zero-Backend Media Processing Platform**  
 *Compress heavy media payloads and synthesize multi-page PDF documents entirely in client memory.*
